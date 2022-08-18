@@ -1,0 +1,132 @@
+@import "~@/styles/_variables.scss";
+@import "./var_screen";
+
+#screen-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: $bgc;
+  position: relative;
+
+  // 顶部布局样式
+  header {
+    height: $middle_height;
+    position: relative;
+    z-index: 2;
+
+    .title-img {
+      width: 100%;
+      height: 100%;
+      object-fit: fill;  // 图片如何不适合该容器，该属性会给图片拉伸
+    }
+
+    .weather-container {
+      position: absolute;
+      left: $weather_left;
+      top: 0;
+    }
+
+    .time-container {
+      position: absolute;
+      top: 0;
+      right: $date_right;
+      color: #02A7FB;
+      font-size: 18px;
+      font-weight: bold;
+      height: $aside_height;
+      line-height: $aside_height;
+    }
+
+  }
+
+  // 主区域样式布局
+  main {
+    height: calc(100vh - $aside_height);
+    width: 100%;
+    position: absolute;
+    top: $aside_height;
+    left: 0;
+    //opacity: $opacity;
+    //background:rgba(0,0,0,0.7);
+
+    display: flex;
+    justify-content: space-around;
+
+    .main-left, .main-right {
+      width: $main_aside_width;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      display: flex;
+      flex-direction: column;
+      //opacity: $opacity;
+      background:rgba(3,4,29,$opacity);
+      padding-top: 40px;
+
+      .first-screen {
+        height: $first_height;
+        //border: 1px solid #ffffff;
+      }
+
+      .second-screen {
+        height: $second_height;
+        //border: 1px solid #9987ff;
+      }
+
+      .first-screen-right {
+        height: $first_height_right;
+        //border: 1px solid #ffffff;
+      }
+
+      .second-screen-right {
+        height: $second_height_right;
+      }
+
+      .third-screen {
+        flex: 1;
+        //border: 1px solid #fff;
+      }
+
+    }
+
+    .main-left {
+      left: 0;
+    }
+
+    .main-right {
+      right: 0;
+    }
+
+    .main-middle {
+      width: $main_middle_width;
+      height: $main_middle_height;
+      background: $main_middle_bgc;
+      //opacity: $opacity;
+      background:rgba(3,4,29,$opacity);
+      border-radius: 4px;
+      position: absolute;
+      bottom: 37px;
+      padding: 16px;
+
+      display: flex;
+      justify-content: space-around;
+
+      .middle-bottom {
+        width: 96px;
+        text-align: center;
+        .middle-bottom-value {
+          font-size: 30px;
+          font-weight: 400;
+          line-height: 48px;
+          font-style: italic;
+        }
+        .middle-bottom-name {
+          font-size: 24px;
+          white-space: nowrap;
+          overflow:hidden;
+          text-overflow:ellipsis;
+        }
+      }
+    }
+
+  }
+}

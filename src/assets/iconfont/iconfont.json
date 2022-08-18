@@ -1,0 +1,72 @@
+{
+  "id": "3577593",
+  "name": "擎宏大屏",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1727587",
+      "name": "404监控、摄像头",
+      "font_class": "jiankongshexiangtou",
+      "unicode": "e901",
+      "unicode_decimal": 59649
+    },
+    {
+      "icon_id": "2674473",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "6211885",
+      "name": "5设备",
+      "font_class": "shebei",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "6776386",
+      "name": "声音_实体",
+      "font_class": "shengyin_shiti",
+      "unicode": "eca5",
+      "unicode_decimal": 60581
+    },
+    {
+      "icon_id": "10465937",
+      "name": "数据分析",
+      "font_class": "shujufenxi",
+      "unicode": "e7b9",
+      "unicode_decimal": 59321
+    },
+    {
+      "icon_id": "18164959",
+      "name": "报警,警报,报警灯,危险",
+      "font_class": "alarm-full",
+      "unicode": "e871",
+      "unicode_decimal": 59505
+    },
+    {
+      "icon_id": "21428132",
+      "name": "消防水泵",
+      "font_class": "xiaofangshuibeng",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "21715958",
+      "name": "故障1",
+      "font_class": "guzhang1",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "28784650",
+      "name": "消防",
+      "font_class": "xiaofang",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+export const FILE_SERVER_URL='http://file.ha-iot.com:6011'

@@ -1,0 +1,31 @@
+// 文字颜色
+$color: #fff;
+$opacity: .3;
+
+// 大屏整体背景色
+$bgc: #072740;
+$bgc1: #03041D;
+
+// 和header相关的高度
+$aside_height: 40px;
+$middle_height: 199px;
+
+// header内部元素的位置（天气，时间）
+$weather_left: 150px;
+$date_right: 100px;
+
+// main主区域
+$main_aside_width: 440px;
+$first_height: 390px;
+$second_height: 298px;
+$second_height_right: 280px;
+$first_height_right: 300px;
+
+$main_middle_width: 977px;
+$main_middle_height: 160px;
+$main_middle_bgc: #010C1E;
+
+// 主区域中每个模块设置
+$module_header_height: 30px;
+$module_header_width: 80%;
+$module_header_img_width: 349px;
